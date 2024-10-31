@@ -1,0 +1,94 @@
+﻿  UnitTest3.cpp
+C:\АП\Лаби АП\lab 5.5\lab 5.05.cpp(21,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file '/UnitTest3.cpp')
+  
+C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25): error C2665: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': no overloaded function could convert all the argument types
+  (compiling source file '/UnitTest3.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(191,15):
+      could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+          C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25):
+          'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from '_Ty' to 'const wchar_t *'
+          with
+          [
+              _Ty=int
+          ]
+              C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,44):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(185,15):
+      or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+          C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25):
+          'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from '_Ty' to 'const wchar_t *'
+          with
+          [
+              _Ty=int
+          ]
+              C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,44):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(179,15):
+      or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+          C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25):
+          'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from '_Ty' to 'const wchar_t *'
+          with
+          [
+              _Ty=int
+          ]
+              C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,44):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(172,15):
+      or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+          C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25):
+          'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from '_Ty' to 'const char *'
+          with
+          [
+              _Ty=int
+          ]
+              C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,44):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(166,15):
+      or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+          C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25):
+          'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from '_Ty' to 'const char *'
+          with
+          [
+              _Ty=int
+          ]
+              C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,44):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(160,15):
+      or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+          C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25):
+          'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,const char *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 1 from '_Ty' to 'const char *'
+          with
+          [
+              _Ty=int
+          ]
+              C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,44):
+              Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(153,15):
+      or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(float,float,float,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+          C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25):
+          'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(float,float,float,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 3 from 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' to 'float'
+              C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,100):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(146,15):
+      or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(double,double,double,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+          C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25):
+          'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(double,double,double,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)': cannot convert argument 3 from 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' to 'double'
+              C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,100):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(139,36):
+      or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+          C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,100):
+          'initializing': cannot convert from 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' to 'const wchar_t *'
+              C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,100):
+              No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(28,25):
+      while trying to match the argument list '(_Ty, _Ty, std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>)'
+          with
+          [
+              _Ty=int
+          ]
+  
+C:\АП\Лаби АП\lab 5.5\UnitTest3\UnitTest3.cpp(10,1): error C1075: '{': no matching token found
+  (compiling source file '/UnitTest3.cpp')
+  
